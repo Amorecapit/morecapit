@@ -48,7 +48,7 @@ body {
 }
 
 .logo:hover{
- color: #e67e22;
+ color: white;
  transform: scale(1.1);
  transition: color 0.3s, transform 0.3s;
 }
