@@ -41,6 +41,15 @@ body {
 	text-decoration: none;
 	color: white;
 }
+
+.logo span{
+ color: #e67e22;
+}
+
+.logo:hover{
+ color: #e67e22;
+ transform: scale(1.1);
+ transition: color 0.3s, transform 0.3s;
  
 .container{
 	display: flex;
