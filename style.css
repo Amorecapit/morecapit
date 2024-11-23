@@ -17,6 +17,7 @@ h2 {
   margin: 0;
   animation: bounce 2s infinite;
   text-align: center;
+  margin-top: 3%;
 }
 
 body {
@@ -120,6 +121,12 @@ body {
   width: 90%;
   border-radius: 10px;
   margin-top: 5%;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hero img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .cta-button {
