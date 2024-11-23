@@ -51,7 +51,7 @@ body {
 .tombol{
 	display: none;
 	color: white;
-	font-size: 14pt;			
+	font-size: 20pt;			
   max-width: 100%;
 }
  
@@ -101,13 +101,14 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
-  max-width: 100%;
+  max-width: 90%;
   margin: auto;
 }
 
 .hero img {
-  width: 100%;
+  width: 90%;
   border-radius: 10px;
+  margin-top: 5%;
 }
 
 .cta-button {
